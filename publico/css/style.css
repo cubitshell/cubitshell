@@ -1,0 +1,142 @@
+
+
+body {
+    /*background-image: url('http://localhost/cubitshell/img/texture.png');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+#botonBusqueda {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+
+#componente-bg-transparent {
+    background: #acb3ae66;
+}
+
+
+.top-bar ul {
+    background: transparent !important;
+}
+
+#clogo {
+    width: 10em;
+}
+
+.menu-margen {
+    margin-top: 2em !important;
+    color: white !important;
+}
+
+.menu a {
+    color: white;
+    font-weight: bolder;
+}
+
+.submenu-cubit,
+#submenu-cubit {
+    background: #3e5565 none repeat scroll 0% 0% !important;
+}
+
+#diapos {
+    height: 100% !important;
+}
+
+#diapos>li>div {
+    margin: 10%;
+    color: #181616;
+    /*background: #f5f5f599;*/
+}
+
+.cabeceras-presentacion {
+    font-size: 2.4em;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+#bg-sombra {
+    background: rgba(251, 251, 251, 0.31);
+}
+
+.subtituloIndex {
+    font-size: xx-large;
+    color: darkblue;
+}
+
+.mybutonTienda {
+    color: black;
+    font-size: 1.5em;
+    font-weight: bolder;
+    background: none;
+    border: 1px solid;
+    border-color: #2b833c;
+    background: #3dda1e4d;
+}
+
+.iconServ {
+    font-size: 2em;
+    color: #15753f;
+}
+
+.tituloServ {
+    color: green;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.cuerpoServ {
+    font-size: .9em;
+    color: #3f3d3d;
+    font-weight: bolder;
+}
+
+.muestraImagen {
+    text-align: center;
+    margin: 0 auto;
+    height: 10em;
+    width: 10em;
+}
+
+#cartasComp {
+    transition: all ease .5s;
+}
+
+#cartasComp:hover {
+    border-color: #26e96d;
+    box-shadow: 0 2px 5px 0 rgba(26, 167, 18, 0.93), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+
+
+
+#fondoRegistro{
+    background: #0009;
+}
+#fondoRegistro h4, #fondoRegistro label{
+    color: white !important; 
+    font-weight: bolder;
+    text-align: center;
+}
+.usuarioBoton:hover{
+    background: orange;
+    color: blue;
+}
+
+.linksUsuario{
+    background: transparent;
+}
+#contenedorUsuario li{
+    transition: all ease .5s;
+}
+#contenedorUsuario li:hover{
+    background: orange;
+    color: black;
+}
+#opcionesUsuario a{
+    border-radius: 0;
+}

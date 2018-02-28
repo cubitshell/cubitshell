@@ -1,0 +1,354 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #f0f0f0;
+}
+
+p {
+    font-family: helvetica;
+}
+
+h2 {
+    text-align: center;
+    font-family: helvetica;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: helvetica;
+    margin-top: 80px;
+    color: #267ec2;
+}
+
+
+/* Inicio del Css del subhead*/
+
+.subhead {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.subhead ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    /* hace un cambio de 20 segundos y uso de taquigrafia la el uso de alternate es para que las imagenes se vayan de sentido contrario al finalizar*/
+    animation: cambio 20s infinite alternate;
+}
+
+.subhead li {
+    width: 100%;
+    list-style: none;
+}
+
+.subhead img {
+    width: 100%;
+    height: 320px;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
+
+
+/*Final del subhead*/
+
+.contenedor {
+    margin: auto;
+    background-color: #fff;
+    width: 1050px;
+    height: 900px;
+    position: relative;
+}
+
+#cubi {
+    background-image: url(http://localhost/cubitshell/img/about_us/imagenes/cubishell.png);
+    background-size: 150px 100px;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+}
+
+#sucursales {
+    margin: auto;
+    position: relative;
+    float: right;
+    width: 1050px;
+    height: 100px;
+}
+
+#mision {
+    margin: auto;
+    background: #fff;
+    opacity: 40px;
+    width: 800px;
+    height: 200px;
+    position: absolute;
+    border-bottom-right-radius: 2em;
+    border-left-style: solid;
+}
+
+#cubishell {
+    float: right;
+    background: transparent;
+    width: 800px;
+    height: 200px;
+    position: relative;
+    top: 205px;
+    border-bottom-right-radius: 2em;
+    float: left;
+    border-left-style: solid;
+}
+
+#Equipo {
+    float: right;
+    background: #f0f0f0;
+    width: 800px;
+    height: 200px;
+    position: relative;
+    top: 205px;
+    border-bottom-left-radius: 2em;
+    border-right-style: solid;
+}
+
+#imision {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    background-image: url(http://localhost/cubitshell/img/about_us/imagenes/misi.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    top: 10px;
+    left: 20px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+#TexMision {
+    position: relative;
+    width: 350px;
+    height: 150px;
+    left: 300px;
+    top: 0px;
+}
+
+#vision {
+    float: right;
+    background: #f0f0f0;
+    width: 800px;
+    height: 200px;
+    position: relative;
+    top: 205px;
+    border-bottom-left-radius: 2em;
+    border-right-style: solid;
+}
+
+#imvision {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-image: url(http://localhost/cubitshell/img/about_us/imagenes/VISION.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 100px;
+    top: 40px;
+    left: 20px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+#TextVision {
+    position: relative;
+    width: 350px;
+    height: 150px;
+    left: 300px;
+    top: -20px;
+}
+
+#Textcubi {
+    position: relative;
+    width: 350px;
+    height: 150px;
+    left: 300px;
+    top: -20px;
+}
+
+#Textequipo {
+    position: relative;
+    width: 350px;
+    height: 150px;
+    left: 300px;
+    top: -20px;
+}
+
+#imcubi {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-image: url(http://localhost/cubitshell/img/about_us/imagenes/cubi.png);
+    background-repeat: no-repeat;
+    background-size: 200px 100px;
+    top: 40px;
+    left: 20px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+#imequip {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-image: url(http://localhost/cubitshell/img/about_us/imagenes/equipo.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 100px;
+    top: 40px;
+    left: 20px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+#mapa {
+    margin: auto;
+    background-color: transparent;
+    width: 1050px;
+    height: 290px;
+    position: relative;
+}
+
+#ubi {
+    position: relative;
+    top: -15px;
+    width: 1045px;
+    height: 265px;
+}
+
+select#lugares {
+    background-color: #f0f0f0;
+    position: relative;
+    left: -100px;
+}
+
+.content-all {
+    padding: 0px;
+    margin: auto;
+    width: 1050px;
+    height: 150px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.content-carrusel {
+    width: 100%;
+    position: absolute;
+    animation: rotar 50s infinite linear;
+    transform-style: preserve-3d;
+}
+
+.content-carrusel:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.content-carrusel figure {
+    width: 1050px;
+    height: 100%;
+    position: absolute;
+}
+
+.content-carrusel figure:nth-child(1) {
+    transform: rotateY(36deg) translateZ(300px);
+}
+
+.content-carrusel figure:nth-child(2) {
+    transform: rotateY(72deg) translateZ(300px);
+}
+
+.content-carrusel figure:nth-child(3) {
+    transform: rotateY(108deg) translateZ(300px);
+}
+
+.content-carrusel figure:nth-child(4) {
+    transform: rotateY(144deg) translateZ(300px);
+}
+
+.content-carrusel figure:nth-child(5) {
+    transform: rotateY(180deg) translateZ(300px);
+}
+
+.content-carrusel figure:nth-child(6) {
+    transform: rotateY(216deg) translateZ(300px);
+}
+
+.content-carrusel figure:nth-child(7) {
+    transform: rotateY(252deg) translateZ(300px);
+}
+
+.content-carrusel figure:nth-child(8) {
+    transform: rotateY(288deg) translateZ(300px);
+}
+
+.content-carrusel figure:nth-child(9) {
+    transform: rotateY(324deg) translateZ(300px);
+}
+
+.content-carrusel figure:nth-child(10) {
+    transform: rotateY(360deg) translateZ(300px);
+}
+
+.content-carrusel img {
+    width: 200px;
+    height: 100px;
+    transition: all 300ms;
+}
+
+.content-carrusel img:hover {
+    transform: scale(1.5);
+    transition: all 300ms;
+}
+
+@keyframes rotar {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}

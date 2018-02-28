@@ -1,0 +1,294 @@
+.main {
+    padding-bottom: 2em;
+    padding-top: 2em;
+    position: relative;
+    background: url('http://localhost/cubitshell/publico/img/project/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-web {
+    background-image: url('http://localhost/cubitshell/publico/img/project/DISEÑO-WEB.jpg') !important;
+}
+
+.main-soft {
+    background-image: url('http://localhost/cubitshell/publico/img/project/wallpaper.jpg') !important;
+}
+
+.main-hard {
+    background-image: url('http://localhost/cubitshell/publico/img/project/wallHard.jpg') !important;
+}
+
+.contenedor {
+    background: transparent;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 45px;
+    max-width: 1500px;
+    min-width: 350px;
+}
+
+.contenedor-soft {
+    background: rgba(179, 179, 179, .5)
+}
+
+.contenedor-web,
+.contenedor-hard {
+    background: rgba(179, 179, 179, .8)
+}
+
+.seccion {
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 600px;
+}
+
+.intro-derecho {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    width: 50%;
+    padding: 100px 70px 100px 100px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: center;
+    font-weight: 700;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway';
+}
+
+p {
+    line-height: 2;
+}
+
+#intro {
+    background-image: url('http://localhost/cubitshell/publico/img/project/strip-bg-02.jpg');
+}
+
+#software {
+    background-image: url('http://localhost/cubitshell/img/project/strip-bg-01.jpg');
+}
+
+#dweb {
+    background-image: url('http://localhost/cubitshell/img/project/strip-bg-03.jpg');
+}
+
+#hardware {
+    background-image: url('http://localhost/cubitshell/img/project/strip-bg-04.jpg');
+}
+
+.texto {
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.lado-izq,
+.lado-der {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    width: 60%;
+    color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.lado-der {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.texto-contenedor {
+    background: white;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 90%;
+    position: relative;
+    z-index: 100;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.texto-subp {
+    border-radius: 10%;
+    background: none !important;
+}
+
+.text-cont {
+    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
+}
+
+.lado-izq>.texto-contenedor {
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.lado-der>.texto-contenedor {
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.img-contenedor {
+    width: 40%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.titulo {
+    height: 0;
+}
+
+.azul {
+    color: #00599a;
+}
+
+.rojo {
+    color: #882f33;
+}
+
+.gris {
+    color: #333333;
+}
+
+.verde {
+    color: #2A8885;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1199px) {
+    .intro-derecho {
+        padding: 80px 50px 50px 60px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .seccion {
+        display: block;
+        height: auto;
+    }
+    .texto-contenedor {
+        padding-top: 2em;
+        padding-bottom: 2em;
+        font-weight: 700;
+        font-size: .9em;
+    }
+    .intro-derecho {
+        font-size: .9em;
+    }
+    .titulo {
+        margin-bottom: 5em;
+    }
+    #intro,
+    #software,
+    #web,
+    #hardware {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .imagen {
+        padding: 30px;
+    }
+    .contenedor-soft {
+        text-align: -moz-center;
+        text-align: -webkit-center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contenedor {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .texto-contenedor {
+        padding: 1.5em 1em;
+    }
+    .lado-der>.texto-contenedor {
+        padding-right: 0;
+        padding-left: 2em;
+    }
+    .texto {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    }
+    .intro-derecho {
+        padding: 2em;
+    }
+}
+
+@media only screen and (min-width:640px) and (max-width:1100px) {
+    .img-contenedor {
+        width: 100% !important;
+    }
+    .lado-der,
+    .lado-izq {
+        width: 80% !important;
+    }
+    .intro-derecho {
+        width: 70% !important;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:620px) {
+    .main {
+        padding-top: 2em;
+    }
+}
+

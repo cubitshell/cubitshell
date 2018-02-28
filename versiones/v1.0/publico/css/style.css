@@ -1,0 +1,108 @@
+#index{
+    background-image: url( 'http://localhost/cubitshell/img/web-fondo.jpg' );
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+    height: 400px;
+}
+
+#inicio{
+    background-image: url( 'http://localhost/cubitshell/img/bg-p.png' );
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+    height: 400px;
+}
+#botonBusqueda{
+    max-width: 100%;
+    width: 100%;
+}
+#componentes-bg{
+    style="background-image: url( 'http://localhost/cubitshell/img/circuit.jpg' );background-repeat: no-repeat;background-size: cover;background-position: top;height: 100%;width: 100%;"
+}
+#componente-bg-transparent{
+    background:#acb3ae66;
+}
+.top-bar ,.title-bar{
+    background-image : url('http://localhost/cubitshell/img/texture.png');
+
+}
+
+.top-bar ul {
+    background: transparent;;
+}
+#clogo{
+    width: 10em;
+}
+.menu-margen{
+    margin-top: 2em;
+    color: white;
+}
+.menu a{
+    color: white;
+    font-weight: bolder;
+}
+.submenu-cubit{
+    background: #3e5565 none repeat scroll 0% 0% !important;
+}
+#diapos{
+    height: 100% !important;
+}
+#diapos>li>div{
+    margin: 10%;
+    color: #181616;
+    /*background: #f5f5f599;*/
+}
+.cabeceras-presentacion{
+    font-size: 2.4em;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+
+}
+#bg-sombra{
+    background:rgba(251, 251, 251, 0.31);
+}
+.subtituloIndex{
+    font-size: xx-large;
+    color: darkblue;
+}
+.mybutonTienda{
+   color: black;
+    font-size: 1.5em;
+    font-weight: bolder;
+    background: none;
+    border: 1px solid;
+    border-color: #2b833c;
+    background: #3dda1e4d;
+}
+.iconServ{
+    font-size: 2em;
+    color: #15753f;
+}
+.tituloServ{
+    color: green;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.cuerpoServ{
+    font-size: .9em;
+    color: #3f3d3d;
+    font-weight: bolder;
+}
+.muestraImagen{
+    text-align: center;
+    margin: 0 auto;
+    height: 10em;
+    width: 10em;   
+}
+#cartasComp{
+    transition: all ease .5s;
+}
+
+#cartasComp:hover{
+    border-color: #26e96d;
+    box-shadow: 0 2px 5px 0 rgba(26, 167, 18, 0.93),0 2px 10px 0 rgba(0,0,0,.12);
+}
+.card-divider{
+    height: 10em;
+}
